@@ -1,0 +1,106 @@
+/*
+ * generic element configuration
+ */
+html {
+}
+
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.8rem;
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.0;
+
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    letter-spacing: .25rem;
+    font-size: 2.8rem;
+}
+
+h2 {
+    letter-spacing: .125rem;
+    font-size: 2.0rem;
+    margin-top: 3.0rem;
+}
+
+h3 {
+    letter-spacing: .125rem;
+    font-style: oblique;
+    font-size: 1.8rem;
+    margin-top: 3.0rem;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+a {
+    //font-family: 'Fira Sans', sans-serif;
+    //font-weight: 500;
+
+    font-style: oblique;
+    text-decoration: none;
+    
+    color: grey;
+}
+
+.about-me-float {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    //background: black;
+    float: right;
+}
+
+/*
+ * fiddly header and footer stuff
+ */
+#main-container {
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#title-h1 {
+    text-align: center;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    font-size: 3.0rem;
+    padding-bottom: 1.4rem;
+    padding-top: 1.4rem;
+
+    margin-bottom: 3.0rem;
+    
+    width: 100%;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+
+/*
+ * font sizing
+ */
+/*
+@media (min-width: 550px) {
+    h1, h2, h3, body { font-size: 1.5rem; }
+}
+*/
