@@ -1,4 +1,131 @@
-.header {
-    margin-top: 6rem;
-    text-align: center;
+/*
+ * generic element configuration
+ */
+
+/* #0F380F, #306230, #8BAC0F, #9BBC0F
+black, grey, silver, white
+*/
+html {
 }
+
+body {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.0;
+}
+
+h1 {
+    letter-spacing: .25rem;
+    font-size: 2.8rem;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+}
+
+h2 {
+    letter-spacing: .125rem;
+    font-size: 2.0rem;
+    margin-top: 3.0rem;
+}
+
+h3 {
+    letter-spacing: .125rem;
+    font-style: oblique;
+    font-size: 2.0rem;
+    margin-top: 3.0rem;
+}
+
+hr {
+    border-top: 1px solid;
+}
+
+a {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+
+    font-style: oblique;
+    /*
+    letter-spacing: 0.05em;
+    padding: 0.2rem;
+    background-color: black;
+    color: white;
+   */
+    text-decoration: none;
+}
+
+/*
+ * color scheme
+ */
+body { background-color: white; color: black; }
+#main-container { background-color: white; }
+#bar-header { background-color: silver; }
+#bar-header #title-holder { background-color: black; color: white; }
+#bar-header div { background-color: grey; }
+hr { border-color: black; }
+a { color: grey; }
+
+
+/*
+ * fiddly header and footer stuff
+ */
+#main-container {
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#bar-header {
+    text-align: center;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    overflow: auto;
+}
+
+#bar-header #title-holder {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    font-size: 3.0rem;
+
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#bar-header div {
+    padding-bottom: 0.75rem;
+}
+
+#bar-coda {
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 2px;
+    width: 100%;
+    overflow: auto;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: silver;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+
+/*
+ * font sizing
+ */
+/*
+@media (min-width: 550px) {
+    h1, h2, h3, body { font-size: 1.5rem; }
+}
+*/
