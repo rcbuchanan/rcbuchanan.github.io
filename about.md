@@ -8,5 +8,3 @@ title: About Me
 ## Robert Clifton Buchanan
 
 I almost always go by ‘Cliff.’ Sometimes this confuses people.
-
-More content to come.
