@@ -7,7 +7,7 @@ title: "!! BLINKING KLAXON !!"
 Various [school projects](/school.html)
 
 ## Other projects
-Sometimes I write [programs](/hacks.html) for my own amusement.
+Small, entertaining [programs](/hacks.html); Recent experiment with [game development](/gamedev.html).
 
 ## Information
 [About me](/about.html) in general; My "paper" [resume](/uploads/resume.pdf)
